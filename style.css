@@ -18,11 +18,18 @@ a:hover {
   color: #ececec;
   text-decoration: underline;
 }
- 
+
+<!-- 
 #main {
   width: 960px;
   margin: 0 auto;
+<<<<<<< HEAD
+=======
+  background: #daf4f0;
+>>>>>>> 565d079fe5d0c2919bf6bb41070be7ce3116c1a3
 }
+-->
+
 header {
   padding: 0 10px;
   overflow: hidden;
