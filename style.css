@@ -10,7 +10,7 @@ ul {
   padding: 0;
 }
 a {
-  color: #ccc;
+  color: blue;
   text-decoration: none;
 }
  
@@ -68,7 +68,7 @@ ul.entries li h3 {
   font-size: 2em;
 }
 ul.entries a {
-  color: #ececec;
+  color: blue;
 }
 ul.entries a:hover {
   color: #fff;
