@@ -21,12 +21,12 @@ a:hover {
 #wrap {
 margin: 20px auto;
 width: 724px;
-background: #fff url('images/midbg.jpg');
+background: #fff url('img/midbg.jpg');
 background-repeat: repeat-y;
 }
 
 #top { 
-background: #fff url('images/topbg.jpg');
+background: #fff url('img/topbg.jpg');
 height: 30px;
 }
 
@@ -36,14 +36,14 @@ padding: 0 40px 0 40px;
 
 #bottom {
 
-background: #fff url('images/botbg.jpg');
+background: #fff url('img/botbg.jpg');
 height: 30px;
 }
 
 
 .header {
 height: 100px;
-background: #85ACF7 url('images/hidr.jpg');
+background: #85ACF7 url('img/hidr.jpg');
 }
 
 .header h1 { padding-left: 17px; padding-top: 22px; font-size: 22px; color: #FFF; }
