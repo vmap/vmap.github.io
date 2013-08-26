@@ -1,35 +1,45 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <title> VMAP Archive {% if page.title %} | {{ page.title }} {% endif %} </title>
-  <link rel="stylesheet" href="/style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body>
- 
-  <div id="main">
- 
-    <header>
+ <!--
+Design by Bryant Smith
+http://www.bryantsmith.com
+http://www.aszx.net
+email: templates [-at-] bryantsmith [-dot-] com
+Released under Creative Commons Attribution 2.5 Generic.  In other words, do with it what you please; but please leave the link if you'd be so kind :)
 
-      <h1><img height="60" alt="VMAP Logo" src="/img/vmaplogo.jpg" /> VMAP Archive </h1>
-    <header>
- 
-    <nav role="navigation">
-      <ul>
-        <li><a href="http://veteransmemorialairpark.com">Home</a></li>
-        <li><a href="http://vmapaircraft.weebly.com">Gallery</a></li>
-        <li><a href="http://vmap.wikispaces.com/Aircraft+Wiki">Wiki</a></li>
-      </ul>
-    </nav>
- 
-    {{ content }}
- 
-    <footer>
-      <small>Veterans Memorial Air Park 2013</small>
-    </footer>
- 
-  </div>
-</body>
+Name       : A Farewell to Colors
+Description: One column, with top naviagation
+Version    : 1.0
+Released   : 20081230
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="creativeinspiration.css" />
+		<title>FTW Aviation Archive {% if page.title %} | {{ page.title }} {% endif %}</title>
+	</head>
+
+	<body>
+		<div id="page">
+
+		<div id="header">
+			<h1>FTW Aviation Archive</h1>
+			<h2>Veterans Memorial Air Park, Fort Worth, TX</h2>
+		</div>
+
+		<div id="bar">
+			<div class="link"><a href="index.html">Home</a></div>
+			<div class="link"><a href="index.html">About The Archive</a></div>
+			<div class="link"><a href="index.html">Browse Our Collection</a></div>
+			<div class="link"><a href="index.html">Contact Us</a></div>
+		</div>
+
+		{{ content }}
+
+		<div id="footer">
+			<p><small>Veterans Memorial Air Park 2013</small></p>
+			<p><small><a href="http://www.aszx.net">web development</a> by <a href="http://www.bryantsmith.com">bryant smith</a></small></p>
+		</div>
+	</body>
 </html>
+
