@@ -16,7 +16,7 @@ title: "Home"
   <ul class="listing">
     {% for post in site.posts limit:5 %}
     <li>
-      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }} {% if post.description %} title="{{ post.description }}" {% endif %}">{{ post.title }}</a>
+      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}" {% if post.description %} title="{{ post.description }}" {% endif %}>{{ post.title }}</a>
     </li>
     {% endfor %}
   </ul>
