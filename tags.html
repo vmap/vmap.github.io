@@ -1,0 +1,82 @@
+---
+layout: layout
+title: "Tags"
+---
+
+<head>
+<style>
+/* tag_box */
+.tag_box {
+  list-style: none;
+  font-size: small;
+  margin: 0 0 0px;
+  overflow: hidden; }
+
+.tag_box li {
+  line-height: 28px; }
+
+.tag_box li i {
+  opacity: 0.9; }
+
+.tag_box.inline li {
+  list-style-type: none;
+  float: left; }
+
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #cccccc; }
+
+.tag_box a span {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.tag_box a:hover {
+  background-color: #e5e5e5; }
+
+.tag_box a.active {
+  background: #57A957;
+  border: 1px solid #4c964d;
+  color: #FFF; }
+</style>
+</head>
+
+<section class="content">
+<h1 class="thin">Tags</h1>
+</section>
+<ul class="tag_box inline">
+  {% assign tags_list = site.tags %}  
+  {% include JB/tags_list %}
+</ul>
+</section>
+</article>
+<section class="content">
+{% capture get_items %}
+  {% for tag in site.tags %}
+    {{ tag | first }}
+  {% endfor %}
+{% endcapture %}
+
+{% capture num_words %}
+  {{ get_items | split:' ' | sort | join:' ' | number_of_words }}
+{% endcapture %}
+
+{% for item in (1..num_words) %}
+  {% capture this_word %}
+    {{ get_items | split:' ' | sort | join:' ' | truncatewords:item | remove:'...' | split:' ' | last }}
+  {% endcapture %}
+  {% assign display_word = this_word|strip_html|remove:' '|strip_newlines %}
+  <h4 id="{{ display_word }}-ref">{{ display_word }}</h4>
+  <ul class="listing">
+    {% for post in site.posts %}
+      {% if post.tags contains display_word %}
+        <li><span>{{ post.description }}</span> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}
+</section>

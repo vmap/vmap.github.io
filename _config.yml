@@ -1,3 +1,15 @@
-auto: true
-server: true
 markdown: rdiscount
+pygments: true
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
+title : Fort Worth Aviation Archive
+production_url : http://ftwaviationarchive.org
+description: "The Fort Worth Aviation Archive preserves and promotes the rich aviation history of the North Texas region."
+disqus_shortname: fortworthaviationarchive
+analytics:
+gauges:
+author :
+  name : Fort Worth Aviation Archive
+  github : vmap
+  email: vmaparchivist@yahoo.com
