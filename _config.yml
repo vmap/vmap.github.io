@@ -32,14 +32,14 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          value: ""
       - name: "tags"
         field:
           element: "multiselect"
           label: "Tags"
           placeholder: "Create or Choose Tags"
           alterable: true
-      - name: "description"
-        field:
-          element: "textarea"
-          help: "Enter a brief description of the collection."
-          label: "Description"
