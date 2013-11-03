@@ -53,7 +53,7 @@ prose:
               value: "artifacts"
             - name: "Aviation"
               value: "aviation"
-            - name: "Forward Air Control"
+            - name: "Forward_Air_Control"
               value: "forward_air_control"
             - name: "Prose"
               value: "prose"
