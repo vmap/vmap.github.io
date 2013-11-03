@@ -47,3 +47,18 @@ prose:
           label: "Tags"
           placeholder: "Choose Tags"
           alterable: false
+          options:
+            - name: "Artifacts"
+              value: "artifacts"
+            - name: "Aviation"
+              value: "aviation"
+            - name: "Forward Air Control"
+              value: "forward air control"
+            - name: "Prose"
+              value: "prose"
+            - name: "Photographs"
+              value: "photographs"
+            - name: "Theme"
+              value: "theme"
+            - name: "Videos"
+              value: "videos"
