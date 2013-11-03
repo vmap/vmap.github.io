@@ -1,8 +1,8 @@
 ---
 layout: post
+category: posts
 published: true
 title: New UP Version
-category: posts
 description: This article describes some changes to the first version of the website theme.
 tags: 
   - theme

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: posts
 published: true
 title: Test Collection
 category: posts

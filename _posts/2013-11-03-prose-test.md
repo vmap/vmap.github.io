@@ -5,7 +5,7 @@ published: true
 title: Prose Test
 description: This is a test of the Prose editor.
 tags: 
-  - forward air control
+  - forward_air_control
   - prose
 ---
 

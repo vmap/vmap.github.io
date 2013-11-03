@@ -46,6 +46,7 @@ prose:
           element: "multiselect"
           label: "Tags"
           placeholder: "Choose Tags"
+          help: "Click in the field to choose more tags."
           alterable: false
           options:
             - name: "Artifacts"
@@ -53,7 +54,7 @@ prose:
             - name: "Aviation"
               value: "aviation"
             - name: "Forward Air Control"
-              value: "forward air control"
+              value: "forward_air_control"
             - name: "Prose"
               value: "prose"
             - name: "Photographs"

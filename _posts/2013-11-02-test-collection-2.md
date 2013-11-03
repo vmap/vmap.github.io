@@ -1,8 +1,8 @@
 ---
 layout: post
+category: posts
 published: true
 title: Test Collection 2
-category: posts
 description: A second sample test collection for building this web site.
 tags: 
   - aviation
