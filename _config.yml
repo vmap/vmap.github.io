@@ -13,3 +13,34 @@ author :
   name : Fort Worth Aviation Archive
   github : vmap
   email: vmaparchivist@yahoo.com
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://ftwaviationarchive.org/'
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          value: "true"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          placeholder: "Create or Choose Tags"
+          alterable: true
+      - name: "description"
+        field:
+          element: "textarea"
+          help: "Enter a brief description of the collection."
+          label: "Description"
+          value: ""
