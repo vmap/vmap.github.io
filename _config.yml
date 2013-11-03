@@ -23,6 +23,10 @@ prose:
           element: "checkbox"
           label: "Publish"
           value: true
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "posts"
       - name: "layout"
         field:
           element: "hidden"
