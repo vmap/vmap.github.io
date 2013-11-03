@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,12 +20,24 @@
 
   <link rel="shortcut icon" href="/favicon.ico">
 
+  <style>
+  .header .logo {
+    float: right;
+  }
+  </style>
 </head>
 
 <body>
   {% include navbar.html %}
 
   <div class="container">
+    <div class="header">
+      {% unless page.title == "About" %}
+      <img class="logo" src="/images/FWAMshortlogo.jpg"/>
+      {% endunless %}
+    </div>
+    <br>
+    <br>
     {{ content }}
   </div>
 
