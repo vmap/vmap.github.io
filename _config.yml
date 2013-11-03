@@ -41,5 +41,5 @@ prose:
         field:
           element: "multiselect"
           label: "Tags"
-          placeholder: "Create or Choose Tags"
-          alterable: true
+          placeholder: "Choose Tags"
+          alterable: false
