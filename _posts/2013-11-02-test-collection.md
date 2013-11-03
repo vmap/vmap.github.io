@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "Test Collection"
+published: true
+title: Test Collection
 category: posts
-tags: aviation photographs videos
 description: A sample test collection for building this web site.
+tags: 
+  - aviation
+  - photographs
+  - videos
 ---
 
 This is a test post for the new website theme.

@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "New UP Version"
+published: true
+title: New UP Version
 category: posts
-tags: theme
 description: This article describes some changes to the first version of the website theme.
+tags: 
+  - theme
 ---
 
 So I decided to release a new [UP][1] version. Changes include:
