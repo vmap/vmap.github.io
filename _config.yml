@@ -22,7 +22,7 @@ prose:
         field:
           element: "checkbox"
           label: "Publish"
-          value: "true"
+          value: true
       - name: "layout"
         field:
           element: "hidden"
@@ -43,4 +43,3 @@ prose:
           element: "textarea"
           help: "Enter a brief description of the collection."
           label: "Description"
-          value: ""
