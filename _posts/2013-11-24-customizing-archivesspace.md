@@ -13,14 +13,14 @@ description: IT Project Management Presentation
 ### Resources
 - [Developer Screencasts](http://www.youtube.com/channel/UCMBmBY_CsxwJy9rJKxQrVoQ/videos)
 - [Ruby on Rails Tutorial](http://ruby.railstutorial.org/)
--- Git/GitHub version control
--- Heroku deployment
 
 ### Customizations
 *[Standard Install](http://alpha.archivesspace.org)*
+
 *Theme*
 - [Background Image](https://github.com/drewhop/archivesspace-1.0.0/blob/master/frontend/app/assets/stylesheets/themes/default/default.less#L4) | [Screenshot](https://www.dropbox.com/s/zp3hfltyfdclxvg/AS_welcome.png)
 - [Welcome Message](https://github.com/drewhop/archivesspace-1.0.0/blob/master/frontend/config/locales/en.yml#L200-202)
+
 *Accessions Interface*
 - [Screenshot](https://www.dropbox.com/s/u34nkicaybkrzj0/AS_newaccession.png)
 - [Form](https://github.com/drewhop/archivesspace-1.0.0/blob/master/frontend/app/views/accessions/_form.html.erb#L18)
