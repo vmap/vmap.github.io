@@ -18,14 +18,21 @@ description: IT Project Management Presentation
 **[Standard Install](http://alpha.archivesspace.org)**
 
 **Theme**
+
 - [Background Image](https://github.com/drewhop/archivesspace-1.0.0/blob/master/frontend/app/assets/stylesheets/themes/default/default.less#L4) | [Screenshot](https://www.dropbox.com/s/zp3hfltyfdclxvg/AS_welcome.png)
+
 - [Welcome Message](https://github.com/drewhop/archivesspace-1.0.0/blob/master/frontend/config/locales/en.yml#L200-202)
 
 **Accessions Interface**
+
 - [Screenshot](https://www.dropbox.com/s/u34nkicaybkrzj0/AS_newaccession.png)
+
 - [Form](https://github.com/drewhop/archivesspace-1.0.0/blob/master/frontend/app/views/accessions/_form.html.erb#L18)
+
 - [Sidebar](https://github.com/drewhop/archivesspace-1.0.0/blob/master/frontend/app/views/accessions/_sidebar.html.erb#L7)
+
 - [Display](https://github.com/drewhop/archivesspace-1.0.0/blob/master/frontend/app/views/accessions/show.html.erb#L33-40)
+
 - [User-Defined Display](https://github.com/drewhop/archivesspace-1.0.0/blob/master/frontend/app/helpers/aspace_form_helper.rb#L694)
 
 ### Next Steps
