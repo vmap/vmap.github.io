@@ -19,7 +19,9 @@ description: IT Project Management Presentation
 
 **Theme**
 
-- [Background Image](https://github.com/drewhop/archivesspace-1.0.0/blob/master/frontend/app/assets/stylesheets/themes/default/default.less#L4) | [Screenshot](https://www.dropbox.com/s/zp3hfltyfdclxvg/AS_welcome.png)
+- [Screenshot](https://www.dropbox.com/s/zp3hfltyfdclxvg/AS_welcome.png)
+
+- [Background Image](https://github.com/drewhop/archivesspace-1.0.0/blob/master/frontend/app/assets/stylesheets/themes/default/default.less#L4)
 
 - [Welcome Message](https://github.com/drewhop/archivesspace-1.0.0/blob/master/frontend/config/locales/en.yml#L200-202)
 
