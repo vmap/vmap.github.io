@@ -12,7 +12,7 @@ description: IT Project Management Presentation
 
 ### Resources
 - [Developer Screencasts](http://www.youtube.com/channel/UCMBmBY_CsxwJy9rJKxQrVoQ/videos)
-- [Ruby on Rails Tutorial](http://ruby.railstutorial.org/)
+- [Ruby on Rails Tutorial](http://ruby.railstutorial.org/) (RVM/Git/GitHub/Heroku/TDD)
 
 ### Customizations
 **[Standard Install](http://alpha.archivesspace.org)**
