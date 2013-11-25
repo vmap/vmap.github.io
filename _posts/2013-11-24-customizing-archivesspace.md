@@ -39,4 +39,3 @@ description: IT Project Management Presentation
 - Repackage Customizations as Plugins
 - Install for Client
 - Investigate Hosting Options (Heroku / Amazon EC2)
-- Commit to ArchivesSpace Project
